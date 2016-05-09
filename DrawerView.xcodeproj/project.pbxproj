@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE044FAD1CE061B7000B35CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FAC1CE061B7000B35CB /* main.m */; };
+		CE044FB01CE061B7000B35CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FAF1CE061B7000B35CB /* AppDelegate.m */; };
+		CE044FB81CE061B7000B35CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE044FB71CE061B7000B35CB /* Assets.xcassets */; };
+		CE044FBB1CE061B7000B35CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE044FB91CE061B7000B35CB /* LaunchScreen.storyboard */; };
+		CE044FC61CE061B7000B35CB /* DrawerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FC51CE061B7000B35CB /* DrawerViewTests.m */; };
+		CE044FD11CE061B8000B35CB /* DrawerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FD01CE061B8000B35CB /* DrawerViewUITests.m */; };
+		CE044FE01CE06202000B35CB /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FDF1CE06202000B35CB /* CenterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE044FC21CE061B7000B35CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE044FA01CE061B7000B35CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE044FA71CE061B7000B35CB;
+			remoteInfo = DrawerView;
+		};
+		CE044FCD1CE061B7000B35CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE044FA01CE061B7000B35CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE044FA71CE061B7000B35CB;
+			remoteInfo = DrawerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE044FA81CE061B7000B35CB /* DrawerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE044FAC1CE061B7000B35CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE044FAE1CE061B7000B35CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE044FAF1CE061B7000B35CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE044FB71CE061B7000B35CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE044FBA1CE061B7000B35CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE044FBC1CE061B7000B35CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE044FC11CE061B7000B35CB /* DrawerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE044FC51CE061B7000B35CB /* DrawerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerViewTests.m; sourceTree = "<group>"; };
+		CE044FC71CE061B7000B35CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE044FCC1CE061B7000B35CB /* DrawerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE044FD01CE061B8000B35CB /* DrawerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerViewUITests.m; sourceTree = "<group>"; };
+		CE044FD21CE061B8000B35CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE044FDE1CE06202000B35CB /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		CE044FDF1CE06202000B35CB /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE044FA51CE061B7000B35CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE044FBE1CE061B7000B35CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE044FC91CE061B7000B35CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE044F9F1CE061B7000B35CB = {
+			isa = PBXGroup;
+			children = (
+				CE044FAA1CE061B7000B35CB /* DrawerView */,
+				CE044FC41CE061B7000B35CB /* DrawerViewTests */,
+				CE044FCF1CE061B8000B35CB /* DrawerViewUITests */,
+				CE044FA91CE061B7000B35CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE044FA91CE061B7000B35CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE044FA81CE061B7000B35CB /* DrawerView.app */,
+				CE044FC11CE061B7000B35CB /* DrawerViewTests.xctest */,
+				CE044FCC1CE061B7000B35CB /* DrawerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE044FAA1CE061B7000B35CB /* DrawerView */ = {
+			isa = PBXGroup;
+			children = (
+				CE044FAE1CE061B7000B35CB /* AppDelegate.h */,
+				CE044FAF1CE061B7000B35CB /* AppDelegate.m */,
+				CE044FDE1CE06202000B35CB /* CenterViewController.h */,
+				CE044FDF1CE06202000B35CB /* CenterViewController.m */,
+				CE044FB71CE061B7000B35CB /* Assets.xcassets */,
+				CE044FB91CE061B7000B35CB /* LaunchScreen.storyboard */,
+				CE044FBC1CE061B7000B35CB /* Info.plist */,
+				CE044FAB1CE061B7000B35CB /* Supporting Files */,
+			);
+			path = DrawerView;
+			sourceTree = "<group>";
+		};
+		CE044FAB1CE061B7000B35CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE044FAC1CE061B7000B35CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE044FC41CE061B7000B35CB /* DrawerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE044FC51CE061B7000B35CB /* DrawerViewTests.m */,
+				CE044FC71CE061B7000B35CB /* Info.plist */,
+			);
+			path = DrawerViewTests;
+			sourceTree = "<group>";
+		};
+		CE044FCF1CE061B8000B35CB /* DrawerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE044FD01CE061B8000B35CB /* DrawerViewUITests.m */,
+				CE044FD21CE061B8000B35CB /* Info.plist */,
+			);
+			path = DrawerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE044FA71CE061B7000B35CB /* DrawerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE044FD51CE061B8000B35CB /* Build configuration list for PBXNativeTarget "DrawerView" */;
+			buildPhases = (
+				CE044FA41CE061B7000B35CB /* Sources */,
+				CE044FA51CE061B7000B35CB /* Frameworks */,
+				CE044FA61CE061B7000B35CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerView;
+			productName = DrawerView;
+			productReference = CE044FA81CE061B7000B35CB /* DrawerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE044FC01CE061B7000B35CB /* DrawerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE044FD81CE061B8000B35CB /* Build configuration list for PBXNativeTarget "DrawerViewTests" */;
+			buildPhases = (
+				CE044FBD1CE061B7000B35CB /* Sources */,
+				CE044FBE1CE061B7000B35CB /* Frameworks */,
+				CE044FBF1CE061B7000B35CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE044FC31CE061B7000B35CB /* PBXTargetDependency */,
+			);
+			name = DrawerViewTests;
+			productName = DrawerViewTests;
+			productReference = CE044FC11CE061B7000B35CB /* DrawerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE044FCB1CE061B7000B35CB /* DrawerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE044FDB1CE061B8000B35CB /* Build configuration list for PBXNativeTarget "DrawerViewUITests" */;
+			buildPhases = (
+				CE044FC81CE061B7000B35CB /* Sources */,
+				CE044FC91CE061B7000B35CB /* Frameworks */,
+				CE044FCA1CE061B7000B35CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE044FCE1CE061B7000B35CB /* PBXTargetDependency */,
+			);
+			name = DrawerViewUITests;
+			productName = DrawerViewUITests;
+			productReference = CE044FCC1CE061B7000B35CB /* DrawerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE044FA01CE061B7000B35CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "闰尚松";
+				TargetAttributes = {
+					CE044FA71CE061B7000B35CB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CE044FC01CE061B7000B35CB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CE044FA71CE061B7000B35CB;
+					};
+					CE044FCB1CE061B7000B35CB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CE044FA71CE061B7000B35CB;
+					};
+				};
+			};
+			buildConfigurationList = CE044FA31CE061B7000B35CB /* Build configuration list for PBXProject "DrawerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE044F9F1CE061B7000B35CB;
+			productRefGroup = CE044FA91CE061B7000B35CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE044FA71CE061B7000B35CB /* DrawerView */,
+				CE044FC01CE061B7000B35CB /* DrawerViewTests */,
+				CE044FCB1CE061B7000B35CB /* DrawerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE044FA61CE061B7000B35CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE044FBB1CE061B7000B35CB /* LaunchScreen.storyboard in Resources */,
+				CE044FB81CE061B7000B35CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE044FBF1CE061B7000B35CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE044FCA1CE061B7000B35CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE044FA41CE061B7000B35CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE044FB01CE061B7000B35CB /* AppDelegate.m in Sources */,
+				CE044FAD1CE061B7000B35CB /* main.m in Sources */,
+				CE044FE01CE06202000B35CB /* CenterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE044FBD1CE061B7000B35CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE044FC61CE061B7000B35CB /* DrawerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE044FC81CE061B7000B35CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE044FD11CE061B8000B35CB /* DrawerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE044FC31CE061B7000B35CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE044FA71CE061B7000B35CB /* DrawerView */;
+			targetProxy = CE044FC21CE061B7000B35CB /* PBXContainerItemProxy */;
+		};
+		CE044FCE1CE061B7000B35CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE044FA71CE061B7000B35CB /* DrawerView */;
+			targetProxy = CE044FCD1CE061B7000B35CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE044FB91CE061B7000B35CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE044FBA1CE061B7000B35CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE044FD31CE061B8000B35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE044FD41CE061B8000B35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE044FD61CE061B8000B35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunluwang.DrawerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE044FD71CE061B8000B35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunluwang.DrawerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE044FD91CE061B8000B35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunluwang.DrawerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerView.app/DrawerView";
+			};
+			name = Debug;
+		};
+		CE044FDA1CE061B8000B35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunluwang.DrawerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerView.app/DrawerView";
+			};
+			name = Release;
+		};
+		CE044FDC1CE061B8000B35CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunluwang.DrawerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE044FDD1CE061B8000B35CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunluwang.DrawerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE044FA31CE061B7000B35CB /* Build configuration list for PBXProject "DrawerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE044FD31CE061B8000B35CB /* Debug */,
+				CE044FD41CE061B8000B35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE044FD51CE061B8000B35CB /* Build configuration list for PBXNativeTarget "DrawerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE044FD61CE061B8000B35CB /* Debug */,
+				CE044FD71CE061B8000B35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE044FD81CE061B8000B35CB /* Build configuration list for PBXNativeTarget "DrawerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE044FD91CE061B8000B35CB /* Debug */,
+				CE044FDA1CE061B8000B35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE044FDB1CE061B8000B35CB /* Build configuration list for PBXNativeTarget "DrawerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE044FDC1CE061B8000B35CB /* Debug */,
+				CE044FDD1CE061B8000B35CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE044FA01CE061B7000B35CB /* Project object */;
+}
