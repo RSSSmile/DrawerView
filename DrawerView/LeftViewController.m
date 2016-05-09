@@ -1,35 +1,22 @@
 //
-//  CenterViewController.m
+//  LeftViewController.m
 //  DrawerView
 //
 //  Created by ycd006 on 16/5/9.
 //  Copyright © 2016年 闰尚松. All rights reserved.
 //
 
-#import "CenterViewController.h"
+#import "LeftViewController.h"
 
-@interface CenterViewController ()
+@interface LeftViewController ()
 
 @end
 
-@implementation CenterViewController
+@implementation LeftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor redColor];
-    
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(100, 100, 50, 50);
-    button.backgroundColor = [UIColor blueColor];
-    [button setTitle:@"左视图" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(toggle:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-}
-
-- (void)toggle:(UIButton *)button
-{
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

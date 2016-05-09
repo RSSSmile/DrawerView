@@ -14,6 +14,8 @@
 		CE044FC61CE061B7000B35CB /* DrawerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FC51CE061B7000B35CB /* DrawerViewTests.m */; };
 		CE044FD11CE061B8000B35CB /* DrawerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FD01CE061B8000B35CB /* DrawerViewUITests.m */; };
 		CE044FE01CE06202000B35CB /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FDF1CE06202000B35CB /* CenterViewController.m */; };
+		CE044FE41CE0671D000B35CB /* RSSDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FE31CE0671D000B35CB /* RSSDeckViewController.m */; };
+		CE044FE81CE08157000B35CB /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE044FE71CE08157000B35CB /* LeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,11 @@
 		CE044FD21CE061B8000B35CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE044FDE1CE06202000B35CB /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
 		CE044FDF1CE06202000B35CB /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		CE044FE21CE0671D000B35CB /* RSSDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSDeckViewController.h; sourceTree = "<group>"; };
+		CE044FE31CE0671D000B35CB /* RSSDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSDeckViewController.m; sourceTree = "<group>"; };
+		CE044FE51CE071DF000B35CB /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		CE044FE61CE08157000B35CB /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		CE044FE71CE08157000B35CB /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +106,13 @@
 		CE044FAA1CE061B7000B35CB /* DrawerView */ = {
 			isa = PBXGroup;
 			children = (
+				CE044FE11CE066DC000B35CB /* DeckView */,
 				CE044FAE1CE061B7000B35CB /* AppDelegate.h */,
 				CE044FAF1CE061B7000B35CB /* AppDelegate.m */,
 				CE044FDE1CE06202000B35CB /* CenterViewController.h */,
 				CE044FDF1CE06202000B35CB /* CenterViewController.m */,
+				CE044FE61CE08157000B35CB /* LeftViewController.h */,
+				CE044FE71CE08157000B35CB /* LeftViewController.m */,
 				CE044FB71CE061B7000B35CB /* Assets.xcassets */,
 				CE044FB91CE061B7000B35CB /* LaunchScreen.storyboard */,
 				CE044FBC1CE061B7000B35CB /* Info.plist */,
@@ -135,6 +145,16 @@
 				CE044FD21CE061B8000B35CB /* Info.plist */,
 			);
 			path = DrawerViewUITests;
+			sourceTree = "<group>";
+		};
+		CE044FE11CE066DC000B35CB /* DeckView */ = {
+			isa = PBXGroup;
+			children = (
+				CE044FE21CE0671D000B35CB /* RSSDeckViewController.h */,
+				CE044FE31CE0671D000B35CB /* RSSDeckViewController.m */,
+				CE044FE51CE071DF000B35CB /* Config.h */,
+			);
+			path = DeckView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE044FE41CE0671D000B35CB /* RSSDeckViewController.m in Sources */,
+				CE044FE81CE08157000B35CB /* LeftViewController.m in Sources */,
 				CE044FB01CE061B7000B35CB /* AppDelegate.m in Sources */,
 				CE044FAD1CE061B7000B35CB /* main.m in Sources */,
 				CE044FE01CE06202000B35CB /* CenterViewController.m in Sources */,
